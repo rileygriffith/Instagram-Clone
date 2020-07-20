@@ -14,6 +14,11 @@
 		8E31528C24BFC766000DC5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E31528A24BFC766000DC5F3 /* LaunchScreen.storyboard */; };
 		8E31529424BFCB32000DC5F3 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31529324BFCB32000DC5F3 /* SignInViewController.swift */; };
 		8EAFA65324C0EEE900D6E1FA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAFA65224C0EEE900D6E1FA /* SignUpViewController.swift */; };
+		8ECA5DF324C639E1005153AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DF224C639E1005153AD /* HomeViewController.swift */; };
+		8ECA5DF524C63A31005153AD /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DF424C63A31005153AD /* ExploreViewController.swift */; };
+		8ECA5DF724C63A4C005153AD /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DF624C63A4C005153AD /* PostViewController.swift */; };
+		8ECA5DF924C63A61005153AD /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */; };
+		8ECA5DFB24C63A90005153AD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		8E31528D24BFC766000DC5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8E31529324BFCB32000DC5F3 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		8EAFA65224C0EEE900D6E1FA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		8ECA5DF224C639E1005153AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8ECA5DF424C63A31005153AD /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		8ECA5DF624C63A4C005153AD /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,11 @@
 				8E31527F24BFC765000DC5F3 /* AppDelegate.swift */,
 				8E31528124BFC765000DC5F3 /* SceneDelegate.swift */,
 				8E31529324BFCB32000DC5F3 /* SignInViewController.swift */,
+				8ECA5DF224C639E1005153AD /* HomeViewController.swift */,
+				8ECA5DF424C63A31005153AD /* ExploreViewController.swift */,
+				8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */,
+				8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */,
+				8ECA5DF624C63A4C005153AD /* PostViewController.swift */,
 				8E31528524BFC765000DC5F3 /* Main.storyboard */,
 				8E31528824BFC766000DC5F3 /* Assets.xcassets */,
 				8E31528A24BFC766000DC5F3 /* LaunchScreen.storyboard */,
@@ -141,10 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECA5DF324C639E1005153AD /* HomeViewController.swift in Sources */,
 				8E31529424BFCB32000DC5F3 /* SignInViewController.swift in Sources */,
+				8ECA5DF724C63A4C005153AD /* PostViewController.swift in Sources */,
+				8ECA5DF524C63A31005153AD /* ExploreViewController.swift in Sources */,
 				8E31528024BFC765000DC5F3 /* AppDelegate.swift in Sources */,
 				8EAFA65324C0EEE900D6E1FA /* SignUpViewController.swift in Sources */,
+				8ECA5DFB24C63A90005153AD /* ProfileViewController.swift in Sources */,
 				8E31528224BFC765000DC5F3 /* SceneDelegate.swift in Sources */,
+				8ECA5DF924C63A61005153AD /* NotificationsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
