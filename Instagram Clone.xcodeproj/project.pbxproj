@@ -20,6 +20,11 @@
 		8ECA5DF924C63A61005153AD /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */; };
 		8ECA5DFB24C63A90005153AD /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */; };
 		8ECA5DFD24C64B73005153AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA5DFC24C64B73005153AD /* Main.storyboard */; };
+		8ECA5DFF24C6552A005153AD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA5DFE24C6552A005153AD /* Home.storyboard */; };
+		8ECA5E0124C65590005153AD /* Explore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA5E0024C65590005153AD /* Explore.storyboard */; };
+		8ECA5E0324C655C5005153AD /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA5E0224C655C5005153AD /* Post.storyboard */; };
+		8ECA5E0524C65620005153AD /* Notifications.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA5E0424C65620005153AD /* Notifications.storyboard */; };
+		8ECA5E0724C65681005153AD /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8ECA5E0624C65681005153AD /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,11 @@
 		8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 		8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8ECA5DFC24C64B73005153AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8ECA5DFE24C6552A005153AD /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		8ECA5E0024C65590005153AD /* Explore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Explore.storyboard; sourceTree = "<group>"; };
+		8ECA5E0224C655C5005153AD /* Post.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Post.storyboard; sourceTree = "<group>"; };
+		8ECA5E0424C65620005153AD /* Notifications.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Notifications.storyboard; sourceTree = "<group>"; };
+		8ECA5E0624C65681005153AD /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +90,11 @@
 				8ECA5DF624C63A4C005153AD /* PostViewController.swift */,
 				8E31528524BFC765000DC5F3 /* Start.storyboard */,
 				8ECA5DFC24C64B73005153AD /* Main.storyboard */,
+				8ECA5E0624C65681005153AD /* Profile.storyboard */,
+				8ECA5E0424C65620005153AD /* Notifications.storyboard */,
+				8ECA5E0224C655C5005153AD /* Post.storyboard */,
+				8ECA5E0024C65590005153AD /* Explore.storyboard */,
+				8ECA5DFE24C6552A005153AD /* Home.storyboard */,
 				8E31528824BFC766000DC5F3 /* Assets.xcassets */,
 				8E31528A24BFC766000DC5F3 /* LaunchScreen.storyboard */,
 				8E31528D24BFC766000DC5F3 /* Info.plist */,
@@ -147,8 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E31528C24BFC766000DC5F3 /* LaunchScreen.storyboard in Resources */,
+				8ECA5E0524C65620005153AD /* Notifications.storyboard in Resources */,
+				8ECA5DFF24C6552A005153AD /* Home.storyboard in Resources */,
 				8E31528924BFC766000DC5F3 /* Assets.xcassets in Resources */,
 				8E31528724BFC765000DC5F3 /* Start.storyboard in Resources */,
+				8ECA5E0124C65590005153AD /* Explore.storyboard in Resources */,
+				8ECA5E0724C65681005153AD /* Profile.storyboard in Resources */,
+				8ECA5E0324C655C5005153AD /* Post.storyboard in Resources */,
 				8ECA5DFD24C64B73005153AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

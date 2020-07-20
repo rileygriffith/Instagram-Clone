@@ -81,6 +81,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="fjK-2J-q7d" id="dJT-7W-obU"/>
+                        <outlet property="passwordTextField" destination="aFm-62-5iE" id="fNQ-W1-vZP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -176,7 +180,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="A1Z-2F-giM"/>
+        <segue reference="Ctx-ZR-CMN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DefaultProfile" width="584" height="584"/>
