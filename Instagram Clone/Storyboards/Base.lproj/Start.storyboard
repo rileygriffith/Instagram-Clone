@@ -165,6 +165,12 @@
                         <viewLayoutGuide key="safeArea" id="8Qk-ka-ItQ"/>
                     </view>
                     <navigationItem key="navigationItem" id="vds-4h-Jhn"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="t70-oa-yyb" id="72W-y4-Mas"/>
+                        <outlet property="passwordTextField" destination="USU-yQ-iwK" id="EMa-Wx-xGl"/>
+                        <outlet property="profileImage" destination="Tc8-SE-ZI8" id="6Kh-xd-6zB"/>
+                        <outlet property="usernameTextField" destination="pgw-Ez-ezU" id="WZh-ry-Ajm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d1d-81-E73" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,7 +186,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Ctx-ZR-CMN"/>
+        <segue reference="A1Z-2F-giM"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="DefaultProfile" width="584" height="584"/>

@@ -61,6 +61,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E10DB2D24CA56AC0026A50B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8E31528524BFC765000DC5F3 /* Start.storyboard */,
+				8ECA5DFC24C64B73005153AD /* Main.storyboard */,
+				8ECA5E0624C65681005153AD /* Profile.storyboard */,
+				8ECA5E0424C65620005153AD /* Notifications.storyboard */,
+				8ECA5E0224C655C5005153AD /* Post.storyboard */,
+				8ECA5E0024C65590005153AD /* Explore.storyboard */,
+				8ECA5DFE24C6552A005153AD /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8E10DB2E24CA56D00026A50B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E31529324BFCB32000DC5F3 /* SignInViewController.swift */,
+				8ECA5DF224C639E1005153AD /* HomeViewController.swift */,
+				8ECA5DF424C63A31005153AD /* ExploreViewController.swift */,
+				8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */,
+				8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */,
+				8ECA5DF624C63A4C005153AD /* PostViewController.swift */,
+				8EAFA65224C0EEE900D6E1FA /* SignUpViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		8E31527324BFC765000DC5F3 = {
 			isa = PBXGroup;
 			children = (
@@ -82,23 +110,11 @@
 			children = (
 				8E31527F24BFC765000DC5F3 /* AppDelegate.swift */,
 				8E31528124BFC765000DC5F3 /* SceneDelegate.swift */,
-				8E31529324BFCB32000DC5F3 /* SignInViewController.swift */,
-				8ECA5DF224C639E1005153AD /* HomeViewController.swift */,
-				8ECA5DF424C63A31005153AD /* ExploreViewController.swift */,
-				8ECA5DF824C63A61005153AD /* NotificationsViewController.swift */,
-				8ECA5DFA24C63A90005153AD /* ProfileViewController.swift */,
-				8ECA5DF624C63A4C005153AD /* PostViewController.swift */,
-				8E31528524BFC765000DC5F3 /* Start.storyboard */,
-				8ECA5DFC24C64B73005153AD /* Main.storyboard */,
-				8ECA5E0624C65681005153AD /* Profile.storyboard */,
-				8ECA5E0424C65620005153AD /* Notifications.storyboard */,
-				8ECA5E0224C655C5005153AD /* Post.storyboard */,
-				8ECA5E0024C65590005153AD /* Explore.storyboard */,
-				8ECA5DFE24C6552A005153AD /* Home.storyboard */,
+				8E10DB2E24CA56D00026A50B /* View Controllers */,
+				8E10DB2D24CA56AC0026A50B /* Storyboards */,
 				8E31528824BFC766000DC5F3 /* Assets.xcassets */,
 				8E31528A24BFC766000DC5F3 /* LaunchScreen.storyboard */,
 				8E31528D24BFC766000DC5F3 /* Info.plist */,
-				8EAFA65224C0EEE900D6E1FA /* SignUpViewController.swift */,
 			);
 			path = "Instagram Clone";
 			sourceTree = "<group>";
