@@ -9,7 +9,7 @@
 import UIKit
 import FirebaseAuth
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -48,6 +48,7 @@ class SignUpViewController: UIViewController {
         passwordTextField.tintColor = .white
         passwordTextField.textColor = .white
         
+        
         // creates bottom line under email text field
         let bottomLayerP = CALayer()
         bottomLayerP.frame = CGRect(x: 0, y: 35, width: 364, height: 1)
@@ -56,15 +57,25 @@ class SignUpViewController: UIViewController {
         
         // profile image animation
         profileImage.layer.cornerRadius = 50
+        
+        // deletes to allow text field should return function to work
+        passwordTextField.delegate = self
+        emailTextField.delegate = self
+        usernameTextField.delegate = self
     }
-    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        passwordTextField.resignFirstResponder()
+        emailTextField.resignFirstResponder()
+        usernameTextField.resignFirstResponder()
+        return true
+    }
     @IBAction func dismissOnClick(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
     @IBAction func SignUpButton_TouchUpInside(_ sender: Any) {
-        Auth.auth().createUser(withEmail: "email@gmail.com", password: "password") { authResult, error in
-          
+        Auth.auth().createUser(withEmail: emailTextField.text!, password: passwordTextField.text!) { authResult, error in
+
         }
     }
     /*
